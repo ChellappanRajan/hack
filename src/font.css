@@ -1,0 +1,79 @@
+/* Example 1: Bold variable style */
+.geist-mono-variable-bold {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+/* Example 2: Light weight style for captions */
+.geist-mono-caption-light {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+/* Example 3: Medium weight for code snippets */
+.geist-mono-code-medium {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+/* Example 4: Extra bold for emphasis */
+.geist-mono-emphasis-extrabold {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800; /* Extra bold weight */
+  font-style: normal;
+}
+
+/* Example 5: Thin weight for subtle display */
+.geist-mono-subtle-thin {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100; /* Thin weight */
+  font-style: normal;
+}
+
+/*Example 6: Semi-bold for headings*/
+.geist-mono-heading-semibold {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*Example 7: Extra light for very fine text*/
+.geist-mono-fine-extralight {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/*Example 8: Black for very strong emphasis*/
+.geist-mono-strong-black {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*Example 9: Regular weight for standard text*/
+.geist-mono-regular-text {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Example 10: Custom weight for specific use case*/
+.geist-mono-custom-550 {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}

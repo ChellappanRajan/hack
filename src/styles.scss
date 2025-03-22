@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "reset.css";
+@import "font.css";
+
+:root {
+  --background: rgb(10, 10, 10);
+  --secondary-color: rgb(163, 163, 163);
+  --linear-bg: linear-gradient(
+    90deg,
+    #0a0a0a 0%,
+    #2ba6ff 21.5%,
+    #fff 33%,
+    #2ba6ff 65.5%,
+    #0a0a0a 100%
+  );
+}
+
+body {
+  background-color: var(--background);
+  height: 300vh;
+  width: 100vw;
+  font-family: "Inter", sans-serif; /* Use Inter font, fallback to sans-serif */
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
