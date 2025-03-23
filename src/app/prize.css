@@ -1,0 +1,43 @@
+@property --a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@property --i {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+.prize-card {
+  aspect-ratio: 1;
+  border-radius: 30px;
+
+  border: 5px solid rgb(20, 136, 252);
+  /* #ccc; */
+  padding: 10px; /* control the gap */
+  mask:
+    conic-gradient(#000 0 0) content-box,
+    linear-gradient(
+        calc(mod(var(--a), 180deg) * var(--i) + var(--_a, 45deg)),
+        #0000 30%,
+        #000 40% 60%,
+        #0000 70%
+      )
+      subtract,
+    conic-gradient(#000 0 0) padding-box;
+  transition:
+    --i 0.5s,
+    --a 0s 0.5s;
+  cursor: pointer;
+}
+
+.prize-card {
+  --_a: -45deg;
+}
+.prize-card:hover {
+  --i: 1;
+  --a: 15turn;
+  transition:
+    --i 0s,
+    --a 30s linear;
+}
