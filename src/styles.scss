@@ -13,11 +13,15 @@
     #2ba6ff 65.5%,
     #0a0a0a 100%
   );
+  --card-height: 40vw;
+  --card-margin: 4vw;
+  --card-top-offset: 1em;
+  --outline-width: 0px;
 }
 
 body {
   background-color: var(--background);
-  height: 300vh;
+  /* height: 300vh; */
   width: 100vw;
   font-family: "Inter", sans-serif; /* Use Inter font, fallback to sans-serif */
   font-size: 16px;
